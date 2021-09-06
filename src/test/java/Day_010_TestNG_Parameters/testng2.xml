@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="Test">
+  <parameter name = "Browser" value = "Chrome"/>
+  <parameter name = "UserName" value = "Admin"/>
+  <parameter name = "Password" value = "admin123"/>
+  <parameter name = "JobTitle" value = "Core"/>
+  <parameter name = "JobDesr" value = "CoreDesr"/>
+  <parameter name = "JobNote" value = "CoreNote"/>
+  
+  
+    <classes>
+      <class name="Day_009_TestNG_Parameters.Test2_NonStatic_Paarameters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
